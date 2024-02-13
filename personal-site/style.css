@@ -163,3 +163,52 @@ footer {
     padding: 10px;
 
 }
+
+.contact-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 10px;
+    margin-top: -12px;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+
+.contact {
+    display: block;
+    padding-top: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+input {
+    max-width: 660px;
+    width: 100%;
+    font-size: 18px;
+    margin-left: 60px;
+    padding: 5px
+}
+
+textarea {
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+button {
+    margin-left: 60px;
+}
+

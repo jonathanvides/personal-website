@@ -1,5 +1,3 @@
-<!-- Header - Sub Header - Section - Article - Footers -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,24 +10,37 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="contact-nav">
             <div>
                 <h1>Jonathan Vides</h1>
             </div>
             <div>
-                <a class="current" href="index.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a class="current" href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
-    <section class="home">
-        <img class="self" src="./jonathan.jpg">
-        <h2 class="home-header">Developer, Gamer, Student</h2>
-        <p class="home-p">Motivated and dedicated individual seeking to apply computer software knowledge, technical and
-            mechanical skills to any opportunity that arises.</p>
-        <h3 class="quote">"Dedication makes dreams come true." - Kobe Bryant</h3>
+    <section class="contact">
+        <h2>Contact Me</h2>
+    </section>
+    <section class="form">
+        <form action="./success.html" target="_blank">
+            <label for="text">Name:</label>
+            <br>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="text">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="message">Leave a message:</label>
+            <br>
+            <textarea id="message" name="message" rows="8" cols="59"></textarea>
+            <br>
+            <button type="submit" id="Submit">Submit</button>
+        </form>
     </section>
     <footer>
         <a href="https://github.com/jonathanvides" target="_blank">
@@ -39,7 +50,7 @@
             <img class="button" src="./linkedin.png" alt="LinkedIn">
         </a>
     </footer>
-    <script src="javascript.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>
