@@ -1,5 +1,3 @@
-/* Needs hover effects and media queries and box sizing */
-
 nav {
     display: flex;
     align-items: center;
@@ -27,7 +25,15 @@ a {
 }
 
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: darkseagreen;
+}
+
+article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    color: green;
+    text-align: center;
 }
 
 .home-header {
@@ -198,8 +204,7 @@ label {
 }
 
 input {
-    max-width: 660px;
-    width: 100%;
+    width: 660px;
     font-size: 18px;
     margin-left: 60px;
     padding: 5px
@@ -214,3 +219,61 @@ button {
     margin-left: 60px;
 }
 
+button:hover {
+    background-color: yellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: palevioletred;
+    min-height: 100vh;
+    padding: 60px 0px 95px 0px;
+    margin: 0px -20px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-img {
+        float: unset;
+        margin: unset;
+        padding: unset;
+        width: 100%;
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-img {
+        float: unset;
+        margin: unset;
+        padding: unset;
+        width: 100%;
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 75%
+    }
+
+    textarea {
+        width: 75%;
+    }
+
+    button {
+        font-size: large;
+    }
+}
